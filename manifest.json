@@ -1,12 +1,10 @@
 {
-    "manifest_version": 2,
-    "version": "0.0.1",
+    "manifest_version": 3,
     "name": "Hello World",
-    "description": "Extensão Hello World",
-    "author": "Regis Albuquerque",
-    "browser_action": {
-   	 "default_title": "Hello World",
-   	 "default_popup": "index.html",
-   	 "default_icon": "icon.png"
+    "description": "Hello World by regis",
+    "version": "1.0",
+    "action": {
+      "default_popup": "index.html",
+      "default_icon": "icon.png"
     }
-}
+  }
